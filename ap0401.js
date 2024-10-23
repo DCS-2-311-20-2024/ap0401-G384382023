@@ -218,7 +218,7 @@ function init() {
         vz = -Math.abs(vz);
       }
       //右側部分と衝突
-      if (ball.position.x > paddle.position.x + paddleR / 2) {
+      if (ball.position.x > paddle.position.x + paddleL / 2) {
         vx = Math.abs(vx);
       }
       //左側部分と衝突
