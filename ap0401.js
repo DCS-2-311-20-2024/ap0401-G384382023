@@ -60,8 +60,8 @@ function init() {
       ball.position.addScaledVector(vBall, delta * speed);
     }
     else {
-      ball.position.x=paddle.position.x;
-      ball.position.z=paddle.position.z;
+      ball.position.x = paddle.position.x;
+      ball.position.z = paddle.position.z  -(paddleR+ballR);
     }
   }
 
